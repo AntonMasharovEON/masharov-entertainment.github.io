@@ -1,19 +1,16 @@
 /* Global */
-body
-{
+body {
 	font-family: "Lato", sans-serif;
 	margin: 0px;
 }
 
-.container
-{
+.container {
 	display: grid;
 	grid-template-columns: 1fr;
 }
 
 /* Nav */
-.nav-wrapper
-{
+.nav-wrapper {
 	display: flex;
 	justify-content: space-between;
 	padding: 38px;
@@ -21,53 +18,49 @@ body
 	border-bottom-style: solid;
 	border-bottom-width: 3px;
 }
-.nav-wrapper a 
-{
+
+.nav-wrapper a {
 	color: #8a8a8a;
 	text-decoration: none;
 	transition: color 0.5s;
 }
-.nav-wrapper a:hover
-{
+
+.nav-wrapper a:hover {
 	color: black;
 }
 
 
-.left-side
-{
+.left-side {
 	display: flex;
 }
-.nav-wrapper > .left-side > div
-{
+
+.nav-wrapper>.left-side>div {
 	margin-right: 20px;
 	text-transform: uppercase;
 }
 
-.nav-link-wrapper 
-{
+.nav-link-wrapper {
 	height: 22px;
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
-.nav-link-wrapper:hover
-{
+
+.nav-link-wrapper:hover {
 	border-bottom: 1px solid black;
 }
 
-.brand
-{
+.brand {
 	height: 22px;
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
-.brand:hover
-{
+
+.brand:hover {
 	border-bottom: 1px solid black;
 }
 
 /* */
-.footer
-{
+.footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -77,20 +70,17 @@ body
 	justify-content: center;
 }
 
-.email
-{
+.email {
 	color: white;
 	padding: 38px;
 }
 
 /* */
-.mediaBlock
-{
+.mediaBlock {
 	padding: 38px;
 }
 
-.link a
-{
+.link a {
 	color: #8a8a8a;
 	text-decoration: none;
 	transition: color 0.5s;
@@ -98,9 +88,14 @@ body
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
-.link a:hover
-{
+
+.link a:hover {
 	border-bottom: 1px solid black;
 	color: black;
 }
- 
+
+
+
+/* media */
+
+@media screen and (max-width: 320px) {}
