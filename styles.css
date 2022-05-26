@@ -103,4 +103,49 @@ body {
 
 /* media */
 
-@media screen and (max-width: 320px) {}
+/*.outer {
+	width: auto;
+	margin: 20px;
+}*/
+
+.idledeliverycar {
+	margin-left: 0px;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+	font: 16px/135% "Inter", sans-serif;
+	position: middle;
+	padding-top: 4em;
+	padding-left: 24em;
+	padding-right: 24em;
+	padding-bottom: 4em;
+}
+
+
+
+
+@media (max-width: 1600px) {
+	.idledeliverycar {
+		padding-left: 14em;
+		padding-right: 14em;
+	}
+}
+
+@media (max-width: 1200px) {
+	.idledeliverycar {
+		padding-left: 8em;
+		padding-right: 8em;
+	}
+}
+
+@media (max-width: 900px) {
+	.idledeliverycar {
+		padding-left: 4em;
+		padding-right: 4em;
+	}
+}
+
+@media (max-width: 320px) {
+	.idledeliverycar {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
