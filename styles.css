@@ -61,7 +61,7 @@ body {
 
 /* */
 .footer {
-	position: fixed;
+	position: fixed !important;
 	overflow: hidden;
 	left: 0;
 	bottom: 0;
