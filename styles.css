@@ -1,6 +1,6 @@
 /* Global */
 body {
-	font-family: "Lato", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0px;
 }
 
@@ -42,8 +42,10 @@ body {
 
 .nav-link-wrapper {
 	/*height: 22px;*/
+	font-size: 20px;
+	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 50%;
+	margin-top: 45%;
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
@@ -64,6 +66,21 @@ body {
 	width: 100%;
 	background-color: black;
 	justify-content: center;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: rgb(255, 0, 0)
+}
+
+.footer-another {
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	justify-content: center;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: rgb(255, 0, 0)
 }
 
 .clear {
@@ -105,8 +122,8 @@ body {
 
 .idledeliverycar {
 	margin-left: 0px;
-	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-	font: 16px/135% "Inter", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font: 16px/135% "Inter", sans-serif;*/
 	position: middle;
 	padding-top: 3em;
 	padding-left: 24em;
@@ -114,8 +131,38 @@ body {
 	padding-bottom: 4em;
 }
 
+ul {
+	list-style: none;
+}
 
+ul li::before {
+	content: "\2022";
+	color: red;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
 
+.idledeliverycar a {
+	color: red;
+}
+
+.idledeliverycar a:visited {
+	color: black;
+}
+
+.idledeliverycar a:hover {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.idledeliverycar a:active {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
 
 @media (max-width: 1600px) {
 	.idledeliverycar {
