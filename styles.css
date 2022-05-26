@@ -49,7 +49,7 @@ body {
 }
 
 .nav-link-wrapper:hover {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid rgb(255, 0, 0);
 	transform: scale(1.2);
 }
 
@@ -108,7 +108,7 @@ body {
 	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 	font: 16px/135% "Inter", sans-serif;
 	position: middle;
-	padding-top: 1.8em;
+	padding-top: 3em;
 	padding-left: 24em;
 	padding-right: 24em;
 	padding-bottom: 4em;
@@ -119,6 +119,7 @@ body {
 
 @media (max-width: 1600px) {
 	.idledeliverycar {
+		padding-top: 1.8em;
 		padding-left: 14em;
 		padding-right: 14em;
 	}
@@ -126,6 +127,7 @@ body {
 
 @media (max-width: 1200px) {
 	.idledeliverycar {
+		padding-top: 1.8em;
 		padding-left: 8em;
 		padding-right: 8em;
 	}
@@ -133,6 +135,7 @@ body {
 
 @media (max-width: 900px) {
 	.idledeliverycar {
+		padding-top: 1.8em;
 		padding-left: 3em;
 		padding-right: 3em;
 	}
@@ -140,6 +143,7 @@ body {
 
 @media (max-width: 320px) {
 	.idledeliverycar {
+		padding-top: 1.8em;
 		padding-left: 2em;
 		padding-right: 2em;
 	}
