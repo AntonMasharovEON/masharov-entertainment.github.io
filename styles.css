@@ -61,13 +61,18 @@ body {
 
 /* */
 .footer {
-	position: absolute;
+	position: fixed;
+	overflow: hidden;
 	left: 0;
 	bottom: 0;
 	height: 100px;
 	width: 100%;
 	background-color: black;
 	justify-content: center;
+}
+
+.clear {
+	height: 100px;
 }
 
 .email {
