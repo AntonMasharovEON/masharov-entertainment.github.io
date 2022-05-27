@@ -30,15 +30,27 @@ body {
 	color: black;
 }*/
 
-.brand {
-	height: 80px;
-	width: 80px;
+.nav-wrapper>.left-side>div {
+	margin-right: 15px;
 }
 
-.brand img {
+.product-name {
+	display: grid;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.left-side {
+	display: flex;
+	height: 80px;
+	width: 800px;
+}
+
+.left-side img {
 	max-width: 100%;
 	max-height: 100%;
 }
+
 
 .nav-link-wrapper {
 	/*height: 22px;*/
@@ -46,12 +58,12 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: 45%;
-	border-bottom: 1px solid transparent;
+	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper:hover {
-	border-bottom: 1px solid rgb(255, 0, 0);
+	border-bottom: 2px solid rgb(223, 0, 36);
 	transform: scale(1.2);
 }
 
@@ -68,7 +80,7 @@ body {
 	justify-content: center;
 	border-top-style: solid;
 	border-top-width: 3px;
-	border-top-color: rgb(255, 0, 0)
+	border-top-color: rgb(223, 0, 36)
 }
 
 .footer-another {
@@ -80,7 +92,7 @@ body {
 	justify-content: center;
 	border-top-style: solid;
 	border-top-width: 3px;
-	border-top-color: rgb(255, 0, 0)
+	border-top-color: rgb(223, 0, 36)
 }
 
 .clear {
@@ -137,7 +149,7 @@ ul {
 
 ul li::before {
 	content: "\2022";
-	color: red;
+	color: rgb(223, 0, 36);
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
@@ -145,7 +157,7 @@ ul li::before {
 }
 
 .idledeliverycar a {
-	color: red;
+	color: rgb(223, 0, 36);
 }
 
 .idledeliverycar a:visited {
@@ -159,7 +171,7 @@ ul li::before {
 }
 
 .idledeliverycar a:active {
-	color: red;
+	color: rgb(223, 0, 36);
 	background-color: transparent;
 	text-decoration: underline;
 }
@@ -180,11 +192,25 @@ ul li::before {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
 	.idledeliverycar {
 		padding-top: 1.8em;
 		padding-left: 3em;
 		padding-right: 3em;
+	}
+
+	.product-name {
+		display: none;
+	}
+
+	.left-side {
+		height: 80px;
+		width: 80px;
+	}
+
+	.left-side img {
+		max-width: 80px;
+		max-height: 80px;
 	}
 }
 
