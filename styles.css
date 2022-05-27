@@ -40,6 +40,11 @@ body {
 	font-weight: bold;
 }
 
+.logo {
+	height: 80px;
+	width: 80px;
+}
+
 .left-side {
 	display: flex;
 	height: 80px;
