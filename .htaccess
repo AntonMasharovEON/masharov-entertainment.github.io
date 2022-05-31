@@ -1,8 +1,6 @@
 # mod_rewrite starts here
 
 RewriteEngine on
-# RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index.html\ HTTPS/
-# RewriteRule ^index.html$ https://masharov.su/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
