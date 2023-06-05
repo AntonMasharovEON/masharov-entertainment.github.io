@@ -120,6 +120,15 @@ body {
 	padding-top: 20px;
 }
 
+/*.mediaBlockAbout {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-size: 100px;
+}*/
+
 .link a {
 	color: black;
 	text-decoration: none;
