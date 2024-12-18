@@ -44,7 +44,7 @@ ul {
 
 ul li::before {
 	content: "\2022";
-	color: rgb(223, 0, 36);
+	color: rgb(216, 47, 47);
 	font-weight: bold;
 	display: inline-block;
 	width: 1em;
@@ -52,7 +52,7 @@ ul li::before {
 }
 
 .idledeliverycar a {
-	color: rgb(223, 0, 36);
+	color: rgb(216, 47, 47);
 	text-decoration: none;
 }
 
@@ -73,13 +73,13 @@ ul li::before {
 }
 
 .idledeliverycar a:hover {
-	color: red;
+	color: rgb(216, 47, 47);
 	background-color: transparent;
 	text-decoration: underline;
 }
 
 .idledeliverycar a:active {
-	color: rgb(223, 0, 36);
+	color: rgb(216, 47, 47);
 	background-color: transparent;
 	text-decoration: underline;
 }

@@ -69,7 +69,7 @@ body {
 }
 
 .nav-link-wrapper:hover {
-	border-bottom: 2px solid rgb(223, 0, 36);
+	border-bottom: 2px solid rgb(216, 47, 47);
 	transform: scale(1.2);
 }
 
@@ -88,7 +88,7 @@ body {
 	justify-content: center;
 	border-top-style: solid;
 	border-top-width: 3px;
-	border-top-color: rgb(223, 0, 36)
+	border-top-color: rgb(216, 47, 47)
 }
 
 .footer-another {
@@ -100,7 +100,7 @@ body {
 	justify-content: center;
 	border-top-style: solid;
 	border-top-width: 3px;
-	border-top-color: rgb(223, 0, 36)
+	border-top-color: rgb(216, 47, 47)
 }
 
 .clear {
@@ -139,12 +139,12 @@ body {
 }
 
 .link a:hover {
-	border-bottom: 2px solid rgb(223, 0, 36);
+	border-bottom: 2px solid rgb(216, 47, 47);
 	color: black;
 }
 
 ul li a {
-	color: rgb(223, 0, 36);
+	color: rgb(216, 47, 47);
 }
 
 
